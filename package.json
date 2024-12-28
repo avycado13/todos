@@ -1,0 +1,24 @@
+{
+  "name": "todos",
+  "version": "1.1.297",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "one dev",
+    "dev:clean": "one dev --clean",
+    "clean": "one clean",
+    "prebuild:native": "one prebuild",
+    "build:web": "one build",
+    "serve": "one serve"
+  },
+  "installConfig": {
+    "hoistingLimits": "workspaces"
+  },
+  "dependencies": {
+    "expo": "~51.0.28",
+    "one": "1.1.297",
+    "react": "^18.3.1",
+    "react-native": "0.74.1",
+    "react-native-web": "^0.19.12"
+  }
+}
